@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_color">#FF5722</color>
+    <color name="alert_color">#FF9800</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="button_disabled">#CCCCCC</color>
+    <color name="button_start">#4CAF50</color>
+    <color name="button_start_pressed">#45a049</color>
+    <color name="button_stop">#F44336</color>
+    <color name="button_stop_pressed">#da190b</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="heart_rate_color">#E91E63</color>
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">FocusGuard</string>
+    <string name="distraction_detected">⚠️ Distracción detectada!</string>
+    <string name="distractions_detected">⚠️ Se detectaron distracciones</string>
+    <string name="error_configuring_health">Error configurando Samsung Health</string>
+    <string name="error_initializing_health">Error inicializando Samsung Health</string>
+    <string name="error_reading_data">Error leyendo datos de salud</string>
+    <string name="error_sending_alert">Error enviando alerta</string>
+    <string name="excellent_focus">✅ ¡Excelente concentración!</string>
+    <string name="focus_guard_icon">Icono de FocusGuard</string>
+    <string name="footer_text">Monitoreo de concentración con Samsung Health</string>
+    <string name="heart_rate_format">FC: %d bpm</string>
+    <string name="heart_rate_indicator">Indicador de frecuencia cardíaca</string>
+    <string name="heart_rate_placeholder">FC: -- bpm</string>
+    <string name="heart_rate_threshold_info">Umbral de FC para distracción: %d bpm</string>
+    <string name="monitoring_interval_info">Intervalo de monitoreo: %d segundos</string>
+    <string name="no_data_recorded">No se registraron datos durante la sesión</string>
+    <string name="permissions_denied">Algunos permisos fueron denegados</string>
+    <string name="permissions_granted">Permisos concedidos</string>
+    <string name="ready_to_start">Listo para iniciar sesión</string>
+    <string name="samsung_health_connected">Samsung Health conectado</string>
+    <string name="samsung_health_error">Error conectando Samsung Health</string>
+    <string name="samsung_health_not_available">Samsung Health no está disponible</string>
+    <string name="samsung_health_not_connected">Samsung Health no está conectado</string>
+    <string name="session_active">Sesión activa - Monitoreando...</string>
+    <string name="session_finished">Sesión finalizada</string>
+    <string name="session_started">Sesión de concentración iniciada</string>
+    <string name="session_stopped">Sesión de concentración finalizada</string>
+    <string name="session_summary">Resumen de Sesión</string>
+    <string name="start_session">Iniciar Sesión</string>
+    <string name="stop_session">Detener Sesión</string>
+    <string name="summary_alerts">⚠️ Alertas enviadas: %d</string>
+    <string name="summary_avg_hr">💓 FC Promedio: %d bpm</string>
+    <string name="summary_duration">⏱️ Duración: %d minutos</string>
+    <string name="summary_readings">📈 Lecturas totales: %d</string>
+    <string name="telegram_alert_format">⚠️ Posible distracción detectada. FC: %d bpm</string>
+    <style name="Theme.FocusGuard" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+</resources>
